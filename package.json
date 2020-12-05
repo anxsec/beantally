@@ -1,0 +1,21 @@
+{
+  "name": "beantally",
+  "version": "1.0.0",
+  "description": "A beancount related tally toolchain.",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "ts-node ./test.ts"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "mailparser": "^3.0.1"
+  },
+  "devDependencies": {
+    "@types/cheerio": "^0.22.22",
+    "@types/mailparser": "^3.0.0",
+    "@types/node": "^14.14.10",
+    "ts-node": "^9.1.0",
+    "typescript": "^4.1.2"
+  }
+}
